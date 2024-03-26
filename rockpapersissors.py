@@ -31,7 +31,7 @@ end = 0
 while end == 0:
     player = ''
     while player == '':
-        player = input('\nRock, paper of scissors?\n').lower().strip()
+        player = input('\nRock, paper or scissors?\n').lower().strip()
         if player == 'rock' or player =='paper' or player == 'scissors':
             continue
         else:
