@@ -33,7 +33,7 @@ else:
     if how == 'swim':
         print('\nGAME OVER\nAttacked by trout.')
     else:
-        end = input('Which door?\n').lower()
+        end = input('Which door?\n  YELLOW | RED | BLUE\n').lower()
         if end == "red":
             print("\nBurned by fire.\nGAME OVER")
         elif end == 'yellow':
