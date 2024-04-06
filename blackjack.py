@@ -1,7 +1,7 @@
 #wszystko ponad 10 liczy sie jako 10, as liczy sie jako 1 lub 11 
 #Nie mozna przekroczyc 21 
 #kto blizej 21 ten wygrywa
-#mozna dobra jedna karte 
+#mozna dobrac jedna karte 
 
 import random
 Wartosc = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 10] 
