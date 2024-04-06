@@ -26,7 +26,7 @@ def decode(plain_text, shift_amount):
     print(f"The decode text is {cipher_text}")
 
 still = True
-while still == True:
+while still:
     
     if direction == 'encode':
         text = input("Type your message:\n").lower()
